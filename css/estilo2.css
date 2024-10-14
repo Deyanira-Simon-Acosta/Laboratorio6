@@ -1,0 +1,33 @@
+.navbar{
+    background-color: #e3f2fd;
+    padding: 10 23px;
+}
+a{
+    cursor: pointer;
+}
+
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+img{
+    display: block;
+    margin: auto;
+}
+.containers{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    margin: 20px; 
+}
+.card.type{
+    width: 15rem; 
+    margin: 10px; 
+    min-height: 100px; 
+    display: flex;
+    flex-direction: column;
+    background-color: #e3f2fd;
+}
