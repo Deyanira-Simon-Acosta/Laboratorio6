@@ -36,3 +36,9 @@ aside p{
     margin-bottom: 15px;
     background-color: #e3f2fd;
 }
+.img6{
+    width: 20%;
+    height: 20%;
+    float: left;
+    align-items: center;
+}
