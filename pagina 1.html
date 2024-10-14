@@ -82,6 +82,56 @@
                 </p>
             </aside>
         </div>
+    <!-- Modal -->
+    <div class="modal fade" id="quizModal" tabindex="-1" aria-labelledby="quizModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="quizModalLabel">Quiz</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="quiz-container">
+                        <div class="question" id="question-1">
+                            <b><p>De acuerdo a la sección “Un idioma importante,” ¿cual es la razón por la cual los estudiantes no están recibiendo clases para aprender chino?</p></b>
+                            <div>
+                                <input type="radio" name="Pregunta1" value="a"> A. Porque no hay estudiantes que quieran aprender el lenguaje.<br>
+                                <input type="radio" name="Pregunta1" value="b"> B. Porque el gobierno Chino no tiene buenas relaciones con los Estados Unidos.<br>
+                                <input type="radio" name="Pregunta1" value="c"> C. Porque los maestros no quieren enseñar otros idiomas que no sea el inglés.<br>
+                                <input type="radio" name="Pregunta1" value="d"> D. Porque el gobierno paró de dar fondos para la enseñanza del idioma.<br>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="question" id="question-2">
+                            <b><p>¿Cuál de las siguientes oraciones del artículo explica la razón por la cual las escuelas no pueden encontrar maestros de otros idiomas?</p></b>
+                            <div>
+                                <input type="radio" name="Pregunta2" value="a"> A. “Lo mejor es que hagamos el cambio y contratemos maestros de los Estados Unidos. Pero no hay suficientes”, indicó Stephanie Caplan, vocera de la Universidad de Carolina del Norte.<br>
+                                <input type="radio" name="Pregunta2" value="b"> B. Los distritos escolares están abandonando los programas de idiomas.<br>
+                                <input type="radio" name="Pregunta2" value="c"> C. El mundo está cada vez más conectado, y hay muchas oportunidades. Para aprovecharlas, hay que aprender idiomas..<br>
+                                <input type="radio" name="Pregunta2" value="d"> D. En 1997, un tercio de las escuelas con estudiantes de primero a sexto grado ofrecía clases de idiomas.<br>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="question" id="question-3">
+                            <b><p>Lee la siguiente oración del artículo.</p>
+                            <p>"Este es el cuarto año que la Universidad de Carolina del Norte promueve el programa de maestros visitantes."</p>
+                            <p>¿Cuál de las siguientes declaraciones describe MEJOR el significado del uso de la palabra “promueve” como se usa en la oración anterior?</p></b>
+                            <div>
+                                <input type="radio" name="Pregunta3" value="a"> A. una organización abandona un tipo de programa.<br>
+                                <input type="radio" name="Pregunta3" value="b"> B. una organización apoya un tipo de programa.<br>
+                                <input type="radio" name="Pregunta3" value="c"> C. una organización descalifica un tipo de programa<br>
+                                <input type="radio" name="Pregunta3" value="d"> D. una organización le quita los fondos a un tipo de programa.<br>
+                            </div>
+                        </div>
+                        <br>
+                        <button id="submit-quiz" class="btn btn-primary mt-3">Enviar</button>
+                        <br>
+                        <div id="result" class="mt-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
