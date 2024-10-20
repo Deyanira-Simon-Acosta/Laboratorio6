@@ -47,3 +47,7 @@ aside p{
     height: 600px; 
     object-fit: cover;  
 }
+.Resources {
+    text-decoration: none;
+    color: blue;
+}
